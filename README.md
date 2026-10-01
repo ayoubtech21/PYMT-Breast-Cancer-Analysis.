@@ -29,4 +29,10 @@ Sorting and Filtering: Using Pandas sorting functions (sort_values), we isolated
 
 
 Visualization: Finally, we integrated Matplotlib to plot clean, color-coded bar charts (green for upregulated/increased genes, red for downregulated/decreased genes) to clearly visualize the cellular response to the disease and the treatment.
-     
+
+        4. Discussion and Biological Interpretation
+
+The results extracted from our Pandas data pipeline and visualized through our bar plots reveal a clear picture of how breast cancer cells behave over time and how they respond to treatment:
+
+
+
