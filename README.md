@@ -35,4 +35,19 @@ Visualization: Finally, we integrated Matplotlib to plot clean, color-coded bar 
 The results extracted from our Pandas data pipeline and visualized through our bar plots reveal a clear picture of how breast cancer cells behave over time and how they respond to treatment:
 
 
+Phase 1: Natural Disease Progression (Control Group - No Treatment)
+
+What we see: Looking at the first graph, during normal disease progression from Day 0 to Day 7, certain genes shoot up aggressively in green (reaching over 120,000 in average difference), while others drop in red. This shows how fast and aggressive the cancer expansion is when left completely untreated.
+
+
+Phase 2: Treatment with 10mMpp (Low Concentration)
+
+What we see: In the second graph, when the 10mMpp drug treatment is introduced, the scale of the changes starts shifting. The peak values of the upregulated genes (green) drop significantly compared to Phase 1 (dropping down to around 50,000 instead of 120,000). This indicates that even a low concentration of the drug begins to slow down or partially restrain the runaway gene expression caused by the cancer.
+
+
+Phase 3: Treatment with 50mMpp (High Concentration)
+
+What we see: In the third graph, under the higher concentration (50mMpp), we observe a deeper dose-dependent effect. The expression levels of the driving genes are further modulated, showing a clear pharmacological response where increasing the drug dosage impacts the cancer-associated pathways more strongly.
+
+
 
